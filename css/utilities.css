@@ -1,0 +1,65 @@
+:root{
+    --primary: #c72727;
+    --sports-color: #f99500;
+    --entertainment-color:#a66bbe;
+    --technology-color:#009cff;
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color  0.3s;
+}
+
+.btn.primary{
+    color: white;
+    background-color: var(--primary);
+}
+
+.btn.primary{
+    color: white;
+    background-color: var(--primary);
+} 
+.btn.secondary{
+    color:  #333;
+    background-color:white;
+} 
+
+.btn.orange{
+    color:  white;
+    background-color:var(--sports-color);
+}
+.btn:hover{
+    background-color:#eee;
+    color: #333;
+}
+
+.category{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.6rem;
+    border-radius: 15px;
+    color:white;
+    cursor: pointer;
+    transition: background-color  0.3s;
+}
+
+.category.sport{
+    background-color: var(--sports-color);
+}
+.category.entertainment{
+    background-color: var(--entertainment-color);
+}
+.category.technology{
+    background-color: var(--technology-color);
+}
+.category:hover{
+    background-color:#eee;
+    color: #333;
+}
+   
